@@ -1,3 +1,18 @@
+# Configuration Environment & API Secrets
+.env
+credentials.json
+
+# Local Python dependencies and artifacts
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Pipeline Landing Zones & Logs
+data/
+logs/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

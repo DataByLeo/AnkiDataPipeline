@@ -1,0 +1,13 @@
+# Fallback When a Deck-Type is not explicitly defined in the config.yaml file
+default_settings:
+  note_type: "Basic"
+  field_mapping:
+    column_a: "Front"
+    column_b: "Back"
+
+# Vocabulary Deck-Type
+Vocabulary:
+    note_type: "A_MY_BASIC"
+    field_mapping:
+      column_a: "Front"
+      column_b: "Back"
